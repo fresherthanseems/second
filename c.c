@@ -2,6 +2,6 @@
 int main(){
   setuid(0);
   setgid(0);
-  system('/bin/bash');
+  system('whoami&&id');
   return 0;
 }
