@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
-  printf('hell');
+  setuid(0);
+  setgid(0);
   return 0;
 }
